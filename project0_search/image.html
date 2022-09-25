@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Image Search</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- <style>
+            .google-search {
+                width: fit-content;
+                margin-left: auto;
+            }
+            .search {
+                display: block;
+                border: 2px solid red;
+                width: fit-content;
+                margin: auto;
+                margin-top: 20%;
+            }
+            .images-logo {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            /* .images {
+                max-height: 100%;
+                max-width: 100%;
+                object-fit: contain;
+                object-position: center bottom;
+            width: auto;
+            } */
+        </style> -->
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="index.html">Google Search</a>
+        </div>
+        <div class="google-logo">
+            <img class="google-logo-image" src="images/google-images.png" height="92" width="272" alt="Google Images Logo">
+        </div>
+        <div class="search">
+            <form action="https://www.google.com/search" role="search" method="get">
+                <input type="hidden" name="tbm" value="isch">
+                <input class="search-field" type="text" name="q">
+                <input class="image-search-button" type="submit" value="Google Image Search">
+            </form>
+    </body>
+</html>
